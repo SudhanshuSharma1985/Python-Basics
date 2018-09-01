@@ -1,14 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 17 14:08:00 2016
 
-@author: saurabh.t.singh
-"""
-
-"""
-Import of required packages and defining the alias for them
-
-"""
 
 import pandas as pd
 import numpy as np
@@ -18,12 +8,12 @@ from openpyxl import load_workbook
 #==============================================================================
 # Importing file as pandas dataframe
 #==============================================================================
-#input_file_path="C:\Lalit\LearningPython\Learning\Learning\\"
-#output_file_path="C:\Lalit\LearningPython\Learning\Learning\\"
+#input_file_path="C:\LearningPython\Learning\Learning\\"
+#output_file_path="C:\LearningPython\Learning\Learning\\"
 #input_file_name="model_data_to_share.xlsx"
 
-input_file_path=r"C:\Users\lalit.b.gupta\Desktop\All Training Code\\"
-output_file_path=r"C:\Users\lalit.b.gupta\Desktop\All Training Code\\"
+input_file_path=r"C:\Users\Desktop\All Training Code\\"
+output_file_path=r"C:\User\Desktop\All Training Code\\"
 input_file_name="L_joiner_data_um_1.xlsx"
 in_f=input_file_path+input_file_name
 #Reading csv data file
